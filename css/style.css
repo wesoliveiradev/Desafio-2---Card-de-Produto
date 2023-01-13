@@ -77,4 +77,12 @@ body {
         margin: auto;
         padding: 50px;
     }
+
+    #btn360 {
+        margin-top: 40px;
+    }
+
+    #imagem {
+        margin-top: 40px;
+    }
 }
