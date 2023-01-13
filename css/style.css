@@ -68,7 +68,7 @@ body {
 }
 
 
-@media (max-width: 670px){
+@media (max-width: 600px){
     .conteudo {
         display: flex;
         flex-direction: column;
