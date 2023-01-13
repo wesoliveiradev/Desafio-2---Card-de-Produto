@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     gap: 13px;
-    width: 100vh;
+    width: fit-content;
     height: 100vh;
     margin: 0px 350px;
     position: relative;
@@ -72,21 +72,23 @@ body {
     .conteudo {
         display: flex;
         flex-direction: column;
-
         max-width: 270px;
         margin: auto;
         padding: 50px;
     }
 
     #btn360 {
-        margin: 50px 0px 0px 25px;
+        margin: 50px 0px 0px 120px;
     }
 
     #imagem {
         padding-top: 70px;
+        width: 350px;
     }
 
     .informacoes {
         padding-top: 120px;
+        margin-left: 100px;
+        align-items: center;
     }
 }

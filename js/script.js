@@ -4,7 +4,7 @@ function troca() {
 
 
     x.innerHTML = `<input type="image" src="image/fechar.svg" onclick = "fechar()">`
-    img.innerHTML = `<div id = "image-3d"><img src="image/sofa-gif.gif" width = 450px height: 223px></div>`
+    img.innerHTML = `<img src="image/sofa-gif.gif" width = 450px height: 223px>`
 }
 
 function fechar() {
