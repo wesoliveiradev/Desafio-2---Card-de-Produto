@@ -10,53 +10,43 @@ body {
 }
 
 
-
 .conteudo {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    width: fit-content;
+    height: 100vh;
+    margin: 0px 350px;
     position: relative;
-    margin-top: 30vh;
-    margin-left: 30vh;
 }
 
-#btn360 {
+#btn360 {  
     display: block;
     position: absolute;
     margin-left: 366px;
     margin-bottom: 223px;
 }
-
 #imagem {
     width: 450px;
     height: 223px;
 }
-
-
 .informacoes {
     width: fit-content;
     height: 85px;
     color: #271A45;
 }
-
 .informacoes p {
     font-size: 10px;
 }
-
-
 .informacoes h1 {
     font-size: 32px;
     margin: 12px 0 12px 0;
     font-family: 'Crimson Pro', sans-serif;
 }
-
-
 .informacoes h3 {
     font-size: 16px;
     opacity: .67;
     margin-bottom: 20px;
 }
-
 #btn {
     text-decoration: none;
     color: #271A45;
@@ -65,36 +55,8 @@ body {
     padding: 8px 16px;
 }
 
+
 @media (max-width: 670px){
-    .conteudo{
-        margin: 0px;
-        padding: 0px;
-        flex-direction: column;
-    }
-
-    .informacoes {
-        margin-top: 10vh;
-    }
-
-    .informacoes p {
-        margin-left: 105px;
-    }
-    .informacoes h3 {
-        margin-left: 105px;
-    }
-
-    #btn360 {
-        margin-left: 40px;
-        margin-top: 20px;
-    }
-    
-    #btn {
-        margin-left: 60px;
-    } 
-}
-
-
-/* @media (max-width: 670px){
     
     .conteudo {
         display: flex;
@@ -105,11 +67,9 @@ body {
     #btn360 {
         margin: 20px 0px 0px 40px;
     }
-
     #imagem{
         width: 320px;
     }
-
     #imagem img{
         width: 300px;
         padding-top: 15px;
@@ -125,8 +85,7 @@ body {
     #btn {
         margin-left: 60px;
     } 
-} */
-
+}
 
 /* @media (max-width: 670px){
     .conteudo {
@@ -136,7 +95,6 @@ body {
         margin: auto;
         padding: 50px;
     }
-
     #btn360 {
         margin: 50px 0px 0px 120px;
     }
@@ -145,7 +103,6 @@ body {
         padding-top: 70px;
         width: 350px;
     }
-
     .informacoes {
         padding-top: 120px;
         margin-left: 100px;
